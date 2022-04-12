@@ -1,0 +1,126 @@
+#container {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    align-items: center;
+    background: #FFFFFF;
+    border-radius: 15px;
+    font-family: 'Inter';
+    background-color: azure;
+}
+
+h1 {
+    font-size: 26px;
+    font-style:normal;
+    font-weight: bolder;
+    margin: 15px;
+}
+
+h2 {
+    font-size: 32px;
+    font-style:normal;
+    font-weight: bolder;
+    margin-top: 10px;
+}
+
+h4 {
+    color: rgb(16, 97, 57);
+}
+
+p {
+    font-size: 20px;
+    font-style:normal;
+}
+
+#top-menu {
+    display: flex;
+    flex-direction: row;
+    margin-top: 15px;
+}
+
+.banner {
+    display: flex;
+    flex-direction: column;
+    background-color: antiquewhite;
+    align-items: center;
+    width: 960px;
+    border-radius: 5px;
+    align-items: center;
+    margin-bottom: 20px;
+    filter: drop-shadow(4px 4px 10px rgba(0, 0, 0, 0.25));
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #FFFFFF;
+    padding: 10px;
+    border-radius: 11px;
+    margin: 10px;
+    margin-bottom: 25px;
+    filter: drop-shadow(4px 4px 10px rgba(0, 0, 0, 0.25));
+}
+
+.card_image {
+    width: 240px;
+    height: 330px;
+}
+
+.image {
+    width: 120px;
+    height: 268px;
+}
+
+.in_row {
+    display: flex;
+    flex-direction: row;
+}
+
+.carousel-inner {
+    height: 400px;
+    width: 960px;
+    margin: 10px;
+    border-radius: 4px;
+}
+
+.carousel-item {
+    height: 400px;
+}
+
+.carousel-caption {
+    background-color: rgba(5, 4, 4, 0.6) ;
+}
+
+#form-container {
+    display: flex;
+    flex-direction: column;
+    background-color: antiquewhite;
+    align-items: center;
+    width: 960px;
+    border-radius: 5px;
+    align-items: center;
+    margin-bottom: 20px;
+    filter: drop-shadow(4px 4px 10px rgba(0, 0, 0, 0.25));
+}
+
+.form-dados {
+    width: 930px
+}
+
+#form-button {
+    align-self: center;
+    margin-bottom: 15px;
+}
+
+.plus_minus {
+    width: 25px;
+    margin-bottom: 5px;
+}
+
+.cont {
+    width: 25px;
+    margin-right: 6px;
+    margin-left: 6px;
+    margin-bottom: 5px;
+}
